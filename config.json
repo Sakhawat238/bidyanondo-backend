@@ -1,0 +1,12 @@
+{
+    "SECRET_KEY": "django-insecure-pmr=e2ed6io%j!0w0g7dykzgn%km*f9w4!pb_0c%y*!_0v!=7m",
+    "DEBUG_STATUS": "True",
+    "ALLOWED_HOSTS": ["*"],
+    "DB": {
+        "NAME": "BidyanondoDB",
+        "USER": "postgres",
+        "PWD": "Richabir1$",
+        "HOST": "localhost",
+        "PORT": "5432"
+    }
+}

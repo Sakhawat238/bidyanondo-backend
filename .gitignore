@@ -1,0 +1,10 @@
+__pycache__
+*.pyc
+/media
+/media/
+venv
+.vscode
+vscode
+Pipfile.lock
+Pipfile
+env
