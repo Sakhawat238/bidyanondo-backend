@@ -8,7 +8,7 @@ import json
 def StoreLogin(request):
     if request.method == "POST":
         r = request.body
-        json_data = json.loads(str(request.body, encoding='utf-8'))
+        json_data = json.loads(str(r, encoding='utf-8'))
         code = json_data['code']
         password = json_data['password']
 

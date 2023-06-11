@@ -15,6 +15,8 @@ ALLOWED_HOSTS = config_json_obj["ALLOWED_HOSTS"]
 
 INSTALLED_APPS = [
     'store',
+    'reward',
+    'qr',
     'api',
     'django.contrib.admin',
     'django.contrib.auth',
