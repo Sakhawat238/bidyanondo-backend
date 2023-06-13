@@ -16,4 +16,3 @@ def get_reward_items(quantity):
         "status": 400,
         "message": "Quantity is not sufficient enough for reward."
     })
-
