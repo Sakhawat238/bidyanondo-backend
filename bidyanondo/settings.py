@@ -18,6 +18,7 @@ INSTALLED_APPS = [
     'reward',
     'qr',
     'api',
+    'report',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

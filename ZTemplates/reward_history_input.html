@@ -1,0 +1,19 @@
+{% extends 'admin/base_site.html' %}
+
+{% block content %}
+<form method="post" autocomplete="off" style="background: #e8e6ff;padding: 10px 30px;">
+    {%csrf_token%}
+    <label style="font-weight: bold;">Select store : </label>
+    <select name="store-select">
+        <option value="">All stores</option>
+        {%for store in stores %}
+        <option value="{{store.id}}">{{store.name}}</option>
+        {%endfor%}
+    </select>
+    <label style="font-weight: bold; margin-left: 30px">From Date : </label>
+    <input type="date" name="from-date" />
+    <label style="font-weight: bold; margin-left: 30px">To Date : </label>
+    <input type="date" name="to-date"/>
+    <button style="all: unset;margin-left: 20px;cursor: pointer; border: 1px solid blue;padding: 5px 15px;border-radius: 3px;color: white;background: #417690;">Search</button>
+</form>
+{% endblock %}
